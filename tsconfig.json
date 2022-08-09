@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false, //取消any检查
+    "experimentalDecorators": true, //开启注解写法
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": false, //取消Object is possibly null or undefined检查
+    "strictPropertyInitialization": false, //取消属性未初始化检查
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true
+  },
+  // "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": ["node_modules", "dist", "public/**/vendor/*.js"],
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.d.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "configs/**/*.ts"
+  ]
+}
