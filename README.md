@@ -29,6 +29,8 @@ pnpm create vite <项目名称>
 
 然后在 `config/project/project-list` 文件按照例子创建项目目录元素
 
+同时，还要对`main.js`等文件做更改，具体可参照admin案例
+
 * 把项目包的 package.json 的 name 改为 `@projects/xxx` 即可
 
 
@@ -45,3 +47,5 @@ pnpm create vite <项目名称>
 
 class 可以参考参考
 https://www.tailwindcss.cn/docs/align-items
+
+装个插件`WindiCSS Intellisense`可以提示样式
