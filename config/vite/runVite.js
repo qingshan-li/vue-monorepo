@@ -5,7 +5,7 @@ import { execaCommand } from "execa";
  * @param projectName 项目名称
 */
 export default function runVite(projectName) {
-  let cmd = `vite --config ./vite.config.ts`
+  let cmd = `vite --config ../../../config/vite/vite.config.ts --host`;
 
   execaCommand(cmd, { stdio: "inherit" })
 }

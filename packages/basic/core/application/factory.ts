@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import ElementPlus from 'element-plus'
+import AndV from 'ant-design-vue'
 import {install} from '@icon-park/vue/es/all';
 import "@icon-park/vue-next/styles/index.css";
 // import 'virtual:windi.css'
@@ -23,7 +23,7 @@ export function createApplication(option: createAppOption) {
 
   app
     .use(option.router)
-    .use(ElementPlus)
+    .use(AndV)
     // .use();
 
   // 使用自定义前缀'i', 例如: 对于`People`这个icon，组件名字是`i-people`.
