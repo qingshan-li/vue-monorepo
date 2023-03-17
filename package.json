@@ -19,6 +19,8 @@
     "vue-tsc": "^0.38.4"
   },
   "dependencies": {
+    "@antv/x6": "^2.5.5",
+    "@antv/x6-plugin-stencil": "^2.0.2",
     "@icon-park/vue": "^1.4.2",
     "@icon-park/vue-next": "^1.4.2",
     "@types/node": "^18.6.5",
